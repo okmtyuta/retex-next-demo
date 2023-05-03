@@ -32,6 +32,6 @@ export const Katex = (props: KatexProps) => {
         trust: false
       })
     }
-  }, [props.equation])
+  }, [props.equation, props.display])
   return <span ref={katexElementRef} style={style} />
 }
