@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <div>以下のように数式が表示できる。</div>
-      {/* <Retex text={script} /> */}
+      <Retex text={script} />
     </main>
   )
 }
